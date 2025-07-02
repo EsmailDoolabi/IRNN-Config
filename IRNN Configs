@@ -11,7 +11,6 @@ warp://188.114.97.137:7152?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#1
 warp://162.159.192.50:864?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m2#2
 warp://162.159.192.157:864?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m3#3
 warp://188.114.99.172:864?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#4
-warp://162.159.192.105:7152?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m5#5
 
 #For g and h mode, you can use hex bytes between each _, with each part ranging from 00 to FF. You can also select more hex bytes to randomly choose between them.
 #In the next line, this means that the fake packet uses 0x30 as the first byte in the noise.
