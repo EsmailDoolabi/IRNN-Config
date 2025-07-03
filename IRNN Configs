@@ -5,6 +5,6 @@
 //profile-web-page-url: https://hiddify.com
 
 
-IRNN Configs://185.51.200.2:8443?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m1&&detour=warp://162.159.192.118:4233?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=IRNN1#1
-IRNN Configs://162.159.192.180:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m2&&detour=warp://162.159.192.98:4233?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=IRNN2#2
-IRNN Configs://162.159.192.161:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m3&&detour=warp://188.114.96.197:4233?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=IRNN3#3
+IRNN Configs://185.51.200.2:8443?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m1&&detour=warp://162.159.192.118:4233?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m1#1
+IRNN Configs://162.159.192.180:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m2&&detour=warp://162.159.192.98:4233?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m2#2
+IRNN Configs://162.159.192.161:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m3&&detour=warp://188.114.96.197:4233?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m3#3
