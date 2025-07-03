@@ -4,6 +4,6 @@
 //support-url: https://t.me/hiddify
 //profile-web-page-url: https://hiddify.com
 
-IRNN Configs://188.114.98.236:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m1&&detour=IRNN Configs://162.159.192.118:4233?ifp=40-80&ifps=40-80&ifpd=4-8&ifpm=m4#m1
-IRNN Configs://162.159.192.180:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m2&&detour=IRNN Configs://162.159.192.98:4233?ifp=40-80&ifps=40-80&ifpd=4-8&ifpm=m4#m1
-IRNN Configs://162.159.192.161:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m3&&detour=IRNN Configs://188.114.96.197:4233?ifp=40-80&ifps=40-80&ifpd=4-8&ifpm=m4#m1
+IRNN Configs://188.114.98.236:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=hHEX#m1&&detour=IRNN Configs://162.159.192.118:4233?ifp=40-80&ifps=40-80&ifpd=4-8&ifpm=hHEX#m1
+IRNN Configs://162.159.192.180:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=hHEX#m2&&detour=IRNN Configs://162.159.192.98:4233?ifp=40-80&ifps=40-80&ifpd=4-8&ifpm=hHEX#m1
+IRNN Configs://162.159.192.161:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=hHEX#m3&&detour=IRNN Configs://188.114.96.197:4233?ifp=40-80&ifps=40-80&ifpd=4-8&ifpm=hHEX#m1
