@@ -1,7 +1,41 @@
-IRNN-Config/
-├── .github/
-│   └── workflows/
-│       └── update-configs.yml
-├── configs/
-│   └── subscription.txt  (یا hiddify-config.yaml)
-└── README.md
+name: Auto-Update Hiddify Configs
+
+on:
+  schedule:
+    # هر 6 ساعت یکبار اجرا شود (زمان را بر حسب UTC تنظیم کنید)
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # قابلیت اجرای دستی
+
+jobs:
+  update-configs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # مجوز نوشتن در مخزن
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Fetch configs from multiple sources
+        run: |
+          # ایجاد پوشه configs اگر وجود ندارد
+          mkdir -p configs
+          
+          # مثال: دریافت از یک سرور شخصی (لینک را جایگزین کنید)
+          # curl -o configs/subscription.txt https://your-server.com/api/subscription
+          
+          # مثال: دریافت از یک کانال تلگرام یا سورس دیگر
+          # wget -O configs/backup.txt https://example.com/configs.txt
+          
+          # اگر کانفیگ خاصی دارید، می‌توانید مستقیماً بنویسید
+          echo "# Hiddify Configs - Last Updated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > configs/subscription.txt
+          echo "" >> configs/subscription.txt
+          echo "vless://..." >> configs/subscription.txt  # کانفیگ خود را اضافه کنید
+      
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'configs/'
+          message: 'Auto-update Hiddify configs - $(date -u "+%Y-%m-%d %H:%M:%S UTC")'
+          default_author: github_actions
+          push: 'origin main'  # چون branch شما main است
