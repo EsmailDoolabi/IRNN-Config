@@ -30,7 +30,7 @@ jobs:
           # اگر کانفیگ خاصی دارید، می‌توانید مستقیماً بنویسید
           echo "# Hiddify Configs - Last Updated: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" > configs/subscription.txt
           echo "" >> configs/subscription.txt
-          echo "vless://..." >> configs/subscription.txt  # کانفیگ خود را اضافه کنید
+          echo "https://github.com/sinavm/Hiddify/raw/main/@sinavm#IRNN 0" >> configs/subscription.txt  # کانفیگ خود را اضافه کنید
       
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
