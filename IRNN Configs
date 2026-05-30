@@ -4,7 +4,7 @@
 //support-url: https://t.me/argo_vpnn
 //profile-web-page-url: https://hiddify.com
 
-vless://1f9d104e-ca0e-4202-ba4b-a0afb969c747@45.130.125.76:443?mode=stream-one&path=%2Fassignment&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=www.multiplydose.cc.cd&fp=chrome&type=xhttp&allowInsecure=0&sni=www.multiplydose.cc.cd#IRNN 1
+vless://439f353b-b52f-4355-93d8-26e0567d5308@193.163.203.76:50592?security=reality&encryption=none&pbk=kATzSBDyNkm6Ee7p8Ad8iPD5CrJmkJ5n1T-l-LCRmXQ&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=b7ca855a4763a7ac#IRNN 1
 
 vless://26b10d68-fbd3-4320-9ac5-91c7a8be204d@169.40.32.5:80?security=reality&encryption=none&pbk=UmcGXETXGRBPOjchm2HKHHdvhXpn57G-Fd8Skr_0gVs&headerType=none&fp=chrome&spx=%2FRT0MDHJZ47F5ztE&type=tcp&flow=xtls-rprx-vision&sni=www.yahoo.com&sid=52fd6449#IRNN 2
 
@@ -42,3 +42,5 @@ vless://Telegram-Parsashonam-5@45.130.125.69:443?mode=auto&path=%2Fp4r34m&securi
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkaFVmYzBub1NRRFRMT0FS@20.164.221.1:443#IRNN 18
 
 vless://d511e429-e32b-46a7-ac07-a0fffa9b634c@46.149.71.46:443?security=reality&alpn=http%2F1.1&encryption=none&pbk=ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU&host=%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&fp=edge&type=tcp&flow=xtls-rprx-vision&sni=www.avito.ru&sid=0123456789abcdef#IRNN 19
+
+vless://fvpnproxy@85.192.38.162:80?mode=auto&path=%2F&security=&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22scMinPostsIntervalMs%22%3A%2230%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&host=google.com&type=xhttp#IRNN 20
