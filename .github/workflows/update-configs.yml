@@ -1,0 +1,7 @@
+IRNN-Config/
+├── .github/
+│   └── workflows/
+│       └── update-configs.yml
+├── configs/
+│   └── subscription.txt  (یا hiddify-config.yaml)
+└── README.md
